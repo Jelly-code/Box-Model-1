@@ -35,9 +35,21 @@ body {
 }
 
 .signup {
-    text-align: center;
-    background-color: blue;
-    width: 110px;
-    height: auto;
-    display: inline-block;
+	background-color:#4ec3e6;
+	border-radius:11px;
+	display: inline-block;
+	cursor: pointer;
+	color:#ffffff;
+	font-family: Verdana;
+	font-size: 12px;
+	padding: 13px 50px;
+	text-decoration: none;
+}
+.signup a:hover {
+    background-color:#c4f5f5;
+    color: #4ec3e6;
+}
+.signup a:active {
+	position:relative;
+	top:1px;
 }
