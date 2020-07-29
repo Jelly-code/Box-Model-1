@@ -12,10 +12,10 @@ body {
 
 .tarjeta {
     text-align: left;    
-    padding: 20px; 
+    padding: 30px 40px 40px 40px; 
     margin: 10px; 
     width: 400px;
-    height: 350px;   
+    height: 390px;   
     box-sizing: border-box; 
     display: inline-block; 
     border: 1px solid #b9c2bd;    
@@ -32,24 +32,31 @@ body {
 
 .descripcion a {
     text-decoration: none;
+    color: #4ec3e6;
+}
+
+.descripcion a:hover {
+    color: #287777;
+
 }
 
 .signup {
-	background-color:#4ec3e6;
-	border-radius:11px;
+    background-color:#4ec3e6;
+    color:#fafafa;
+	border-radius: 10px;
 	display: inline-block;
 	cursor: pointer;
-	color:#ffffff;
 	font-family: Verdana;
 	font-size: 12px;
 	padding: 13px 50px;
 	text-decoration: none;
 }
-.signup a:hover {
-    background-color:#c4f5f5;
-    color: #4ec3e6;
+
+.signup:hover {
+    background-color:#287777;
+    color: #fafafa;
 }
-.signup a:active {
-	position:relative;
-	top:1px;
+.signup:active {
+	position: relative;
+	top: 1px;
 }
